@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Шлях успіху - історії, помилки, навички та інструменти, які допомагають рухатися вперед.">
+  <title>Шлях успіху</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_upward" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_upward" />
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">ШляхУспіху</a>
+    <nav aria-label="Головна навігація">
+      <a href="./categories/stories.html">Історії</a>
+      <a href="./categories/mistakes.html">Невдачі & Уроки</a>
+      <a href="./categories/skills.html">Навички</a>
+
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="uk">UA</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="portrait" aria-label="Силует людини"></div>
+      <div class="intro">
+        <h1>Ми показуємо не лише вершину. <br>Ми показуємо <span>шлях, помилки та інструменти</span>, <br>які туди привели.</h1>
+        <a class="button" href="#manifesto">Я хочу почати свій шлях</a>
+      </div>
+    </section>
+
+    <section class="manifesto" id="manifesto">
+      <div class="quote-card">
+        <span class="quote-mark open">“</span>
+        <p>Успіх - це не випадковість і не магія. Це сотні годин сумнівів, десятки провалів і правильні навички, здобуті на практиці. Тут ми розбираємо реальні історії людей з дизайну, технологій та бізнесу. Без прикрас. Лише досвід, який можна застосувати.</p>
+        <span class="quote-mark close">”</span>
+      </div>
+    </section>
+
+    <section class="stories section-light" id="stories">
+      <div class="section-copy">
+        <h2>Шлях тих хто зміг</h2>
+      </div>
+      <div class="card-grid">
+        <a class="image-card" href="#story-1" aria-label="Історія перша"><span></span></a>
+        <a class="image-card" href="#story-2" aria-label="Історія друга"><span></span></a>
+        <a class="image-card" href="#story-3" aria-label="Історія третя"><span></span></a>
+        <a class="image-card" href="#story-4" aria-label="Історія четверта"><span></span></a>
+      </div>
+      <a class="section-link" href="./categories/stories.html" style="margin-top: 30px;">Дізнатися більше цікавих історій.</a>
+    </section>
+
+    <section class="mistakes" id="mistakes">
+      <div class="section-copy">
+        <h2>Зворотній бік успіху</h2>
+        <p>Іноді може здаватися, що успіх — це пряма і легка лінія. Але за кожним великим досягненням завжди сховані вигорання, втрачені гроші та болючі рішення. Дізнайся про конкретні провали, щоб тобі не довелося платити таку ж високу ціну за власний урок.</p>
+      </div>
+      <div class="card-grid">
+        <a class="image-card" href="#lesson-1" aria-label="Урок перший"><span></span></a>
+        <a class="image-card" href="#lesson-2" aria-label="Урок другий"><span></span></a>
+        <a class="image-card" href="#lesson-3" aria-label="Урок третій"><span></span></a>
+        <a class="image-card" href="#lesson-4" aria-label="Урок четвертий"><span></span></a>
+      </div>
+      <a class="section-link" href="./categories/mistakes.html" style="margin-top: 30px;">Вчитися на чужих помилках.</a>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="section-copy">
+        <h2>Твій інструментарій</h2>
+      </div>
+      <div class="card-grid">
+        <a class="image-card" href="#skill-1" aria-label="Урок перший"><span></span></a>
+        <a class="image-card" href="#skill-2" aria-label="Урок другий"><span></span></a>
+        <a class="image-card" href="#skill-3" aria-label="Урок третій"><span></span></a>
+        <a class="image-card" href="#skill-4" aria-label="Урок четвертий"><span></span></a>
+      </div>
+      <a class="section-link" href="./categories/skills.html" style="margin-top: 30px;">Відкрити бібліотеку навичок.</a>
+    </section>
+
+    <section class="manifesto">
+      <div class="quote-card">
+        <span class="quote-mark open">“</span>
+        <p class="closing-copy" id="library">Кожна велика історія складалася з тисячі дрібних кроків, сумнівів та вчасно зроблених висновків. Знання, розбори помилок та навички вже у твоїх руках - час діяти.</p>
+      <span class="quote-mark close">”</span>
+      </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-col footer-lead">
+          <h3>Отримуй інсайди першим</h3>
+          <p>Підпишись на розсилку та забирай гайд із розвитку корисних навичок безкоштовно.</p>
+          <form class="lead-form" onsubmit="event.preventDefault(); alert('Дякуємо за підписку!');">
+            <input type="email" placeholder="Твій email..." required>
+            <button type="submit">Отримати</button>
+          </form>
+        </div>
+
+        <div class="footer-col">
+          <h4>Навігація</h4>
+          <ul>
+            <li><a href="./categories/stories.html">Історії</a></li>
+            <li><a href="./categories/mistakes.html">Помилки</a></li>
+            <li><a href="./categories/skills.html">Навички</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Соцмережі</h4>
+          <ul>
+            <li><a href="#" target="_blank" rel="noopener">Telegram</a></li>
+            <li><a href="#" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 ШляхУспіху. Всі права захищені.</span>
+        <small class="footer-quote">«Твій шлях тільки починається»</small>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollToTopBtn" class="scroll-top-btn" aria-label="На самий верх"><span class="material-symbols-outlined">arrow_upward</span></button>
+</body>
+</html>

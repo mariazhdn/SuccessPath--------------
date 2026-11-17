@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Бібліотека навичок та інструментів видатних людей: кризовий менеджмент, пітчинг, емоційний інтелект та інженерне мислення.">
+  <title>Навички та інструменти — Шлях успіху</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_upward" />
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">ШляхУспіху</a>
+    <nav aria-label="Головна навігація">
+      <a href="/categories/stories.html">Історії</a>
+      <a href="/categories/mistakes.html">Невдачі & Уроки</a>
+      <a href="/categories/skills.html" class="active-nav">Навички</a>
+
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="uk">UA</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <span class="page-kicker">Інструментарій практиків</span>
+        <h1>Навички, що перетворюють <span>провали на прориви</span></h1>
+        <p>Кожен видатний результат спирається на конкретні компетенції. Ми виокремили ключові навички засновників, інженерів, спортсменів та візіонерів, які допомогли їм пройти крізь кризи, відмови та скепсис.</p>
+      </div>
+    </section>
+
+    <section class="skills-catalog">
+      <div class="filter-bar" role="group" aria-label="Фільтр навичок за сферами">
+        <button class="filter-btn active" data-filter="all">Усі навички (13)</button>
+        <button class="filter-btn" data-filter="crisis">Кризовий менеджмент і адаптація</button>
+        <button class="filter-btn" data-filter="tech">Інженерія та продукт</button>
+        <button class="filter-btn" data-filter="leadership">Лідерство та комунікація</button>
+        <button class="filter-btn" data-filter="mindset">Емоційний інтелект і стійкість</button>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid">
+        <!-- 1. Мелані Перкінс -->
+        <article class="skill-card" data-category="leadership mindset">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/perkins.jpg" alt="Мелані Перкінс" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Дизайн & Бізнес</span>
+            <span class="skill-person">Мелані Перкінс · Canva</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Навичка пітчингу</h3>
+              <p>Уміння чітко й переконливо презентувати ідею інвесторам навіть після понад 100 відмов поспіль.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Емоційна стійкість (Resilience)</h3>
+              <p>Здатність сприймати відмови не як поразку, а як сигнал для вдосконалення подачі продукту.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Коли кажуть "ні", це означає лише одне: змінити спосіб розповіді».</blockquote>
+        </article>
+
+        <!-- 2. Ілон Маск -->
+        <article class="skill-card" data-category="crisis tech">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/musk.jpg" alt="Ілон Маск" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Технології & Інженерія</span>
+            <span class="skill-person">Ілон Маск · SpaceX, Tesla</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Антикризовий менеджмент</h3>
+              <p>Концентрація всіх фінансових та інженерних ресурсів на вирішенні критичних викликів на межі банкрутства.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Тайм-менеджмент</h3>
+              <p>Успішне управління кількома масштабними технологічними проєктами в умовах жорстких дедлайнів.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Якщо речі не зазнають невдач, ви недостатньо інноваційні».</blockquote>
+        </article>
+
+        <!-- 3. Симона Байлз -->
+        <article class="skill-card" data-category="mindset">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/biles.jpg" alt="Симона Байлз" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Спорт вищих досягнень</span>
+            <span class="skill-person">Симона Байлз · США</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Емоційний інтелект</h3>
+              <p>Уміння вчасно розпізнавати внутрішні межі, втрату концентрації та ознаки глибокого вигорання.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Саморегуляція</h3>
+              <p>Здатність ставити власну безпеку та ментальне здоров'я вище за суспільний тиск і очікування.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Іноді відступити — це єдиний спосіб врятувати себе».</blockquote>
+        </article>
+
+        <!-- 4. Віталік Бутерін -->
+        <article class="skill-card" data-category="tech leadership">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/buterin.jpg" alt="Віталік Бутерін" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Програмування & Блокчейн</span>
+            <span class="skill-person">Віталік Бутерін · Ethereum</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Програмування та архітектура систем</h3>
+              <p>Проєктування та створення складних децентралізованих технічних платформ із нуля.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Робота у спільноті (Open Source)</h3>
+              <p>Уміння об'єднувати глобальні команди розробників навколо відкритого ІТ-проєкту через прозору комунікацію.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Визнавайте вразливості та дозвольте спільноті зробити код сильнішим».</blockquote>
+        </article>
+
+        <!-- 5. Боян Слат -->
+        <article class="skill-card" data-category="tech leadership">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/slat.jpg" alt="Боян Слат" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Наука & Екологія</span>
+            <span class="skill-person">Боян Слат · The Ocean Cleanup</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Критичне мислення</h3>
+              <p>Глибокий аналіз конструктивних помилок прототипів у реальних штормових умовах та їх доопрацювання.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Лідерство</h3>
+              <p>Здатність залучати досвідчених морських інженерів та експертів до реалізації амбітної наукової ідеї.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Невдалий тест цінніший за тисячу симуляцій».</blockquote>
+        </article>
+
+        <!-- 6. Браян Ческі -->
+        <article class="skill-card" data-category="crisis">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/chesky.jpg" alt="Браян Ческі" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Підприємництво & Туризм</span>
+            <span class="skill-person">Браян Ческі · Airbnb</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Антикризове управління</h3>
+              <p>Ухвалення важких і чесних управлінських рішень під час втрати 80% бізнесу за лічені тижні.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Адаптивність</h3>
+              <p>Миттєва перебудова стратегії компанії та фокус на внутрішньому туризмі під впливом зовнішніх шоків.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Будь чесним і сфокусуйся на головному».</blockquote>
+        </article>
+
+        <!-- 7. Наомі Осака -->
+        <article class="skill-card" data-category="mindset">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/osaka.jpg" alt="Наомі Осака" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Спорт & Медіа</span>
+            <span class="skill-person">Наомі Осака · Японія / США</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Емоційний інтелект</h3>
+              <p>Усвідомлення власного психологічного стану та захист особистих кордонів під тиском світових медіа.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Сміливість</h3>
+              <p>Уміння відкрито відстоювати свої права перед великими спортивними інституціями попри ризик санкцій.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Подбай про себе і не бійся наслідків».</blockquote>
+        </article>
+
+        <!-- 8. Палмер Лаки -->
+        <article class="skill-card" data-category="tech crisis">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/luckey.jpg" alt="Палмер Лаки" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Інновації & HardTech</span>
+            <span class="skill-person">Палмер Лаки · Oculus VR, Anduril</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Інженерна стійкість</h3>
+              <p>Пройдений шлях від «гаражного» прототипу VR-шолома у 16 років до масштабного технологічного продукту.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Стратегічне перезавантаження</h3>
+              <p>Здатність запускати нові високотехнологічні компанії після корпоративних і медійних криз.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Спрямуй злість у створення нових технологій».</blockquote>
+        </article>
+
+        <!-- 9. Ріанна -->
+        <article class="skill-card" data-category="leadership">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/rihanna.jpg" alt="Ріанна" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Креатив & Ритейл</span>
+            <span class="skill-person">Ріанна · Fenty Beauty</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Розуміння ринку</h3>
+              <p>Виявлення незаповнених ніш та задоволення реальних потреб аудиторії, яку ігнорували великі корпорації.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Маркетинг та інклюзивність</h3>
+              <p>Перетворення соціальної місії на потужну бізнес-перевагу, що змінює стандарти цілої індустрії.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Самі змініть правила ринку».</blockquote>
+        </article>
+
+        <!-- 10. Малала Юсуфзай -->
+        <article class="skill-card" data-category="leadership mindset">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/malala.jpg" alt="Малала Юсуфзай" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Соціальні проєкти</span>
+            <span class="skill-person">Малала Юсуфзай · Фонд Малали</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Публічні виступи</h3>
+              <p>Мистецтво виголошувати переконливі промови на міжнародному рівні, зокрема з трибуни ООН.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Сміливість та стійкість</h3>
+              <p>Уміння системно захищати право на освіту та власні цінності попри прямі загрози життю.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«На місці страху народилися мужність і рішучість».</blockquote>
+        </article>
+
+        <!-- 11. Джим Вейлс -->
+        <article class="skill-card" data-category="crisis leadership">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/wales.jpg" alt="Джим Вейлс" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Технології & Освіта</span>
+            <span class="skill-person">Джим Вейлс · Wikipedia</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Управління спільнотою</h3>
+              <p>Створення ефективної системи правил саморегуляції для мільйонів добровольців-редакторів.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Гнучкість мислення</h3>
+              <p>Здатність вчасно визнати провал повільної ієрархічної моделі (Nupedia) та перейти на відкриту Wiki-архітектуру.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Довірте знання звичайним людям».</blockquote>
+        </article>
+
+        <!-- 12. Маркус Перссон -->
+        <article class="skill-card" data-category="tech">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/persson.jpg" alt="Маркус Перссон" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Геймдев & Програмування</span>
+            <span class="skill-person">Маркус Перссон · Minecraft</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Ітеративна розробка</h3>
+              <p>Випуск ранньої версії продукту з недосконалою графікою та його швидке й безперервне вдосконалення.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Взаємодія з аудиторією</h3>
+              <p>Уміння уважно слухати фідбек гравців, спільно виправляти баги та впроваджувати ідеї спільноти.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Будуй гру разом із тими, хто в неї грає».</blockquote>
+        </article>
+
+        <!-- 13. Томас Едісон -->
+        <article class="skill-card" data-category="tech mindset">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/edison.jpg" alt="Томас Едісон" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Наука & Винахідництво</span>
+            <span class="skill-person">Томас Едісон · США</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Системне експериментування</h3>
+              <p>Методична фіксація та аналіз тисяч лабораторних спроб як шлях до виключення непрацюючих рішень.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Наполегливість</h3>
+              <p>Утримання фокуса на комерціалізації винаходу попри скепсис інвесторів і руйнування матеріалів.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Я знайшов 10 000 способів, які не працюють».</blockquote>
+        </article>
+
+        <!-- 14. Марк Цукерберг -->
+        <article class="skill-card" data-category="crisis tech">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/zuckerberg.jpg" alt="Марк Цукерберг" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Технології & Платформи</span>
+            <span class="skill-person">Марк Цукерберг · Meta</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Стратегічне бачення</h3>
+              <p>Прогнозування ключових індустріальних зсувів на роки вперед — від мобільних платформ до штучного інтелекту.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Адаптивність</h3>
+              <p>Трансформація продуктів і процесів компанії під час судових викликів і криз довіри користувачів.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Найбільший ризик — не ризикувати взагалі».</blockquote>
+        </article>
+
+        <!-- 15. Ернест Шеклтон -->
+        <article class="skill-card" data-category="crisis leadership">
+          <div class="skill-portrait">
+            <img src="../assets/img/people/shackleton.jpg" alt="Ернест Шеклтон" loading="lazy">
+          </div>
+          <div class="skill-card-header">
+            <span class="skill-domain">Лідерство & Експедиції</span>
+            <span class="skill-person">Ернест Шеклтон · Антарктика</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <h3>Кризове лідерство</h3>
+              <p>Збереження дисципліни, спокою та керованості після втрати корабля на дрейфуючій крижині.</p>
+            </div>
+            <div class="skill-item">
+              <h3>Емоційний інтелект лідера</h3>
+              <p>Щоденна підтримка морального духу команди в умовах тривалого смертельного стресу.</p>
+            </div>
+          </div>
+          <blockquote class="skill-quote">«Оптимізм — це справжня моральна мужність».</blockquote>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <div class="quote-card">
+        <span class="quote-mark open">“</span>
+        <p class="closing-copy">Навички не є вродженим талантом — це інструменти, які відточуються в моменти найвищого опору. Обирай ті, що потрібні твоєму проєкту вже сьогодні.</p>
+        <span class="quote-mark close">”</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-col footer-lead">
+          <h3>Отримуй інсайди першим</h3>
+          <p>Підпишись на розсилку та забирай гайд із розвитку корисних навичок безкоштовно.</p>
+          <form class="lead-form" onsubmit="event.preventDefault(); alert('Дякуємо за підписку!');">
+            <input type="email" placeholder="Твій email..." required>
+            <button type="submit">Отримати</button>
+          </form>
+        </div>
+
+        <div class="footer-col">
+          <h4>Навігація</h4>
+          <ul>
+            <li><a href="/categories/stories.html">Історії</a></li>
+            <li><a href="/categories/mistakes.html">Помилки</a></li>
+            <li><a href="/categories/skills.html">Навички</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Соцмережі</h4>
+          <ul>
+            <li><a href="#" target="_blank" rel="noopener">Telegram</a></li>
+            <li><a href="#" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 ШляхУспіху. Всі права захищені.</span>
+        <small class="footer-quote">«Твій шлях тільки починається»</small>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollToTopBtn" class="scroll-top-btn" aria-label="На самий верх"><span class="material-symbols-outlined">arrow_upward</span></button>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const skillCards = document.querySelectorAll('.skill-card');
+
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filter = btn.getAttribute('data-filter');
+
+          skillCards.forEach(card => {
+            const categories = card.getAttribute('data-category');
+            if (filter === 'all' || categories.includes(filter)) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
