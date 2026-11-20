@@ -3,13 +3,11 @@
 }
 
 :root {
-  --brown: #431b0c;
-  --brown-deep: #3d1809;
-  --olive: #898b5a;
-  --olive-light: #acad76;
+  --navy: #111b2F;
+  --gold: #E0C58F;
+  --dark-gold: #B89458;
   --cream: #f6ecd8;
   --placeholder: #d8d8d8;
-  --ink: #4a2112;
 }
 
 html {
@@ -31,7 +29,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  background: var(--brown-deep);
+  background: var(--navy);
   color: var(--cream);
   position: relative;
   z-index: 2;
@@ -88,7 +86,7 @@ body {
 
 
 .hero {
-  background: var(--olive);
+  background: var(--gold);
   min-height: 100svh;
   height: auto;
   display: flex;
@@ -101,7 +99,7 @@ body {
   position: relative;
   overflow: hidden;
   min-height: calc(100svh - 7svh); 
-  background: var(--olive);
+  background: var(--gold);
 }
 
 .silhouette-wrapper {
@@ -151,7 +149,7 @@ body {
   font-size: 2rem;
   font-weight: 750;
   color: var(--cream);
-  background: var(--brown);
+  background: var(--navy);
   padding: 8px 16px;
   border-radius: 20px;
   white-space: nowrap;
@@ -224,7 +222,7 @@ body {
 }
 
 .intro h1 span {
-  color: var(--olive);
+  color: var(--dark-gold);
 }
 
 .button {
@@ -233,7 +231,7 @@ body {
   padding: 15px 25px;
   border-radius: 10px;
   color: var(--cream);
-  background: var(--brown);
+  background: var(--navy);
   text-decoration: none;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 28px;
@@ -252,14 +250,14 @@ body {
   display: grid;
   place-items: center;
   text-align: center;
-  background: var(--olive);
+  background: var(--gold);
 }
 
 .quote-card {
   max-width: 950px;
   width: 100%;
-  background: var(--olive-light);
-  color: var(--brown);
+  background: var(--dark-gold);
+  color: var(--navy);
   padding: 50px 70px;
   border-radius: 16px;
   position: relative;
@@ -278,7 +276,7 @@ body {
   position: absolute;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 70px;
-  color: var(--brown);
+  color: var(--navy);
   opacity: 0.5;
   line-height: 1;
 }
@@ -337,7 +335,7 @@ body {
 .section-link {
   display: inline-block;
   margin-top: 30px;
-  color: var(--brown);
+  color: var(--dark-gold);
   text-decoration: none;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-weight: 700;
@@ -351,7 +349,7 @@ body {
 .mistakes {
   padding: 40px clamp(22px, 7vw, 100px) 54px;
   color: var(--cream);
-  background: var(--brown-deep);
+  background: var(--navy);
   text-align: center;
 }
 
@@ -381,12 +379,12 @@ body {
 }
 
 .skills h2 {
-  color: var(--olive);
+  color: var(--dark-gold);
 }
 
 .skills .section-link {
   margin-top: 0;
-  color: var(--olive);
+  color: var(--dark-gold);
 }
 
 .closing-copy {
@@ -399,7 +397,7 @@ body {
 .site-footer {
   padding: 40px clamp(20px, 5vw, 72px) 30px;
   color: var(--cream);
-  background: var(--brown-deep);
+  background: var(--navy);
   font-size: 18px;
 }
 
@@ -486,7 +484,7 @@ body {
   padding: 10px 16px;
   border-radius: 6px;
   border: none;
-  background: var(--brown);
+  background: var(--navy);
   color: var(--cream);
   font-family: inherit;
   font-weight: 600;
@@ -496,7 +494,7 @@ body {
 }
 
 .lead-form button:hover {
-  background: var(--olive-light);
+  background: var(--gold);
   color: var(--cream);
 }
 
@@ -528,7 +526,7 @@ body {
   right: 25px;
   width: 60px;
   height: 60px;
-  background: var(--brown);
+  background: var(--navy);
   color: var(--cream);
   border: 1px solid rgba(246, 236, 216, 0.2);
   border-radius: 50%;
@@ -551,7 +549,7 @@ body {
 
 .scroll-top-btn:hover {
   transform: translateY(-3px);
-  background: var(--olive);
+  background: var(--gold);
 }
 
 @media (max-width: 768px) {
@@ -597,14 +595,12 @@ body {
   }
 }
 
-/*Skills*/
-
 .site-header nav a.active-nav::after {
   width: 100%;
 }
 
 .page-hero {
-  background: var(--olive);
+  background: var(--gold);
   color: var(--cream);
   padding: clamp(56px, 8vw, 96px) clamp(20px, 6vw, 80px);
   text-align: center;
@@ -635,7 +631,7 @@ body {
 }
 
 .page-hero h1 span {
-  color: var(--brown-deep);
+  color: var(--navy);
 }
 
 .page-hero p {
@@ -662,7 +658,7 @@ body {
 
 .filter-btn {
   background: transparent;
-  color: var(--brown);
+  color: var(--navy);
   border: 1px solid rgba(67, 27, 12, 0.28);
   padding: 10px 20px;
   border-radius: 8px;
@@ -674,14 +670,14 @@ body {
 }
 
 .filter-btn:hover {
-  border-color: var(--brown);
+  border-color: var(--navy);
   background: rgba(67, 27, 12, 0.06);
 }
 
 .filter-btn.active {
-  background: var(--brown);
+  background: var(--navy);
   color: var(--cream);
-  border-color: var(--brown);
+  border-color: var(--navy);
 }
 
 .skills-grid {
@@ -720,14 +716,14 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--olive);
+  color: var(--gold);
 }
 
 .skill-person {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 24px;
   font-weight: 700;
-  color: var(--brown-deep);
+  color: var(--navy);
 }
 
 .skill-items {
@@ -742,7 +738,7 @@ body {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 21px;
   font-weight: 700;
-  color: var(--brown);
+  color: var(--navy);
 }
 
 .skill-item p {
@@ -756,13 +752,13 @@ body {
   margin: 0;
   padding: 14px 16px;
   background: rgba(137, 139, 90, 0.14);
-  border-left: 3px solid var(--olive);
+  border-left: 3px solid var(--gold);
   border-radius: 0 8px 8px 0;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 18px;
   font-style: italic;
   line-height: 1.45;
-  color: var(--brown-deep);
+  color: var(--navy);
 }
 
 @media (max-width: 520px) {
